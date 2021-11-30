@@ -11,11 +11,11 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
-import os 
-
 import cloudinary
 import cloudinary.uploader
 import cloudinary.api
+import os 
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -81,15 +81,25 @@ WSGI_APPLICATION = 'django_forum.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        "ENGINE" : "django.db.backends.postgresql",
-        "NAME" : "daprdr9sb8kset",
-        "USER" :"kgimjwxpgfyuwi",
-        "HOST" :"ec2-23-22-243-103.compute-1.amazonaws.com",
-        "PORT" : 5432,
-        "PASSWORD" :"cc030f69ce6138b4de6f0cee8a3c3766fabfaab4435bc73748b0d5448f634bbd",
-    }
-}
+        'default' : {
+       'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+        }
+        }
+
+
+
+
+        # "ENGINE" : "django.db.backends.postgresql",
+        # "NAME" : "daprdr9sb8kset",
+        # "USER" :"kgimjwxpgfyuwi",
+        # "HOST" :"ec2-23-22-243-103.compute-1.amazonaws.com",
+        # "PORT" : 5432,
+        # "PASSWORD" :"cc030f69ce6138b4de6f0cee8a3c3766fabfaab4435bc73748b0d5448f634bbd",
+    
+
+    
+
 
 
 # Password validation

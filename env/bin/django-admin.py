@@ -1,4 +1,4 @@
-#!/Users/musubiappleidgmail.com/Desktop/newforum/django_forum/env/bin/python3
+#!/Users/mac/Desktop/Twitter-clone/tclone/env/bin/python3
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 

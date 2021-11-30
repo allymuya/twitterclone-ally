@@ -83,14 +83,15 @@ WSGI_APPLICATION = 'django_forum.wsgi.application'
 DATABASES = {
         'default' : {
        "ENGINE" : "django.db.backends.postgresql",
-        "NAME" : "ddggrk18a0drp5",
-        "USER" :"hvoanaedzsfctg",
-        "HOST" :"ec2-3-217-129-39.compute-1.amazonaws.com",
+        "NAME" : "daprdr9sb8kset",
+        "USER" :"kgimjwxpgfyuwi",
+        "HOST" :"ec2-23-22-243-103.compute-1.amazonaws.com",
         "PORT" : 5432,
-        "PASSWORD" :"894981b7d522daeae0c8b1fad2103c458be251adac3e5fad2c7235d90d34a707",
+        "PASSWORD" :"cc030f69ce6138b4de6f0cee8a3c3766fabfaab4435bc73748b0d5448f634bbd",
     
         }
         }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
